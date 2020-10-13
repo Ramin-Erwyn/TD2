@@ -1,6 +1,6 @@
 package td2;
 
-public class Leaf  implements Composant{
+public class Fichier<string> implements Composant{
 
         int size;
         string Owner;
@@ -29,6 +29,11 @@ public class Leaf  implements Composant{
     }
 
     @Override
+    public String setOwner() {
+        return null;
+    }
+
+
     public void setOwner(String owner) {
 
     }

@@ -3,34 +3,11 @@ import java.io.*;
 import java.util.*;
 public interface Composant{
 
-
-    default String getName(){
-        return name;
-    }
-/*
-        public void setName(String name) {
-             this.name = name;
-        }
-
- */
-
-    public  int getSize() {
-
-        return size;
-    }
-
-    public  String getContent() {
-        return content;
-    }
-
-    public String getOwner() {
-        return Owner;
-    }
-
-    public void setOwner(String owner) {
-        Owner = owner;
-    }
-
+    public abstract int getSize();
+    public abstract String getName();
+    public abstract String getContent();
+    public abstract String getOwner();
+    public abstract String setOwner();
 
 
 }

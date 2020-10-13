@@ -1,7 +1,7 @@
 package td2;
 import java.util.*;
 import td2.Composant.*;
-public abstract class composite implements Composant{
+public abstract class Composite implements Composant{
 
 
     String Children;

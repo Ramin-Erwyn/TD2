@@ -1,6 +1,6 @@
 package td2;
 
-public abstract class owner implements Composant {
+public abstract class owner {
 
     String nom;
 
